@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Marcos Leal | Desenvolvedor Full Stack</title>
+
+    <meta name="description"
+          content="Desenvolvedor Full Stack especializado em Sistemas Web, Android, Supabase, PostgreSQL e Automação de Processos.">
+
+    <style>
+
+        *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Segoe UI, sans-serif;
+        }
+
+        body{
+        background:#0f172a;
+        color:#ffffff;
+        line-height:1.6;
+        }
+
+        .navbar{
+        position:sticky;
+        top:0;
+        z-index:1000;
+
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+
+        padding:15px 40px;
+
+        background:rgba(15,23,42,.95);
+        backdrop-filter:blur(10px);
+
+        border-bottom:1px solid #1e293b;
+        }
+
+        .logo{
+        height:80px;
+        width:auto;
+        }
+
+        .menu{
+        display:flex;
+        gap:20px;
+        }
+
+        .menu a{
+        text-decoration:none;
+        color:white;
+        font-weight:600;
+        }
+
+        .hero{
+
+        padding:100px 20px;
+
+        text-align:center;
+
+        background:
+        linear-gradient(
+        135deg,
+        #0f172a,
+        #1e3a8a
+        );
+
+        }
+
+        .hero h1{
+        font-size:3rem;
+        margin-bottom:10px;
+        }
+
+        .hero h2{
+        color:#60a5fa;
+        margin-bottom:20px;
+        }
+
+        .hero p{
+        max-width:800px;
+        margin:auto;
+        }
+
+        .buttons{
+        margin-top:30px;
+        }
+
+        .btn{
+
+        display:inline-block;
+
+        padding:14px 24px;
+
+        margin:10px;
+
+        background:#2563eb;
+
+        border-radius:8px;
+
+        text-decoration:none;
+        color:white;
+
+        font-weight:bold;
+
+        transition:.3s;
+        }
+
+        .btn:hover{
+        background:#1d4ed8;
+        }
+
+        .container{
+        max-width:1200px;
+        margin:auto;
+        padding:80px 20px;
+        }
+
+        .section-title{
+        text-align:center;
+        margin-bottom:50px;
+        font-size:2rem;
+        color:#60a5fa;
+        }
+
+        .cards{
+
+        display:grid;
+
+        grid-template-columns:
+        repeat(auto-fit,minmax(250px,1fr));
+
+        gap:25px;
+
+        }
+
+        .card{
+
+        background:#1e293b;
+
+        padding:25px;
+
+        border-radius:15px;
+
+        transition:.3s;
+
+        }
+
+        .card:hover{
+        transform:translateY(-5px);
+        }
+
+        .card h3{
+        margin-bottom:15px;
+        }
+
+        .techs{
+        text-align:center;
+        }
+
+        .tech{
+
+        display:inline-block;
+
+        padding:10px 15px;
+
+        margin:6px;
+
+        background:#1e293b;
+
+        border-radius:20px;
+        }
+
+        #projetos{
+
+        display:grid;
+
+        grid-template-columns:
+        repeat(auto-fit,minmax(300px,1fr));
+
+        gap:25px;
+
+        }
+
+        .projeto{
+
+        background:#1e293b;
+
+        border-radius:15px;
+
+        overflow:hidden;
+        }
+
+        .projeto img{
+
+        width:100%;
+        height:220px;
+
+        object-fit:cover;
+        }
+
+        .projeto-content{
+        padding:20px;
+        }
+
+        .projeto h3{
+        margin-bottom:10px;
+        }
+
+        footer{
+
+        text-align:center;
+
+        padding:40px;
+
+        background:#020617;
+
+        margin-top:60px;
+
+        }
+
+        @media(max-width:768px){
+
+        .navbar{
+        flex-direction:column;
+        gap:10px;
+        }
+
+        .hero h1{
+        font-size:2rem;
+        }
+
+        .menu{
+        flex-wrap:wrap;
+        justify-content:center;
+        }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <img src="logo.png" alt="Logo" class="logo">
+
+    <nav class="menu">
+
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#projetos-area">Projetos</a>
+        <a href="#contato">Contato</a>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <h1>Marcos Leal</h1>
+
+    <h2>
+        Desenvolvedor Full Stack • Android • Supabase
+    </h2>
+
+    <p>
+
+        Desenvolvimento de Sistemas Web,
+        Aplicativos Android,
+        Automação de Processos,
+        Integrações e Soluções Cloud.
+
+    </p>
+
+    <div class="buttons">
+
+        <a
+                href="https://wa.me/5511950436161"
+                target="_blank"
+                class="btn">
+            WhatsApp
+        </a>
+
+        <a
+                href="mailto:devleal2026@gmail.com"
+                class="btn">
+            Solicitar Orçamento
+        </a>
+
+    </div>
+
+</section>
+
+<section id="sobre" class="container">
+
+    <h2 class="section-title">
+        Sobre Mim
+    </h2>
+
+    <div class="card">
+
+        Profissional com formação em Análise e Desenvolvimento de Sistemas,
+        especializado em desenvolvimento Web,
+        Android,
+        Supabase,
+        PostgreSQL,
+        Google Apps Script
+        e automação de processos empresariais.
+
+    </div>
+
+</section>
+
+<section id="servicos" class="container">
+
+    <h2 class="section-title">
+        Serviços
+    </h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <h3>🌐 Desenvolvimento Web</h3>
+
+            <p>
+                Sites,
+                Landing Pages,
+                Portais Corporativos
+                e Sistemas Web.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>📱 Desenvolvimento Android</h3>
+
+            <p>
+                Aplicativos Android,
+                Integração com APIs
+                e Google Play.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>☁️ Backend Supabase</h3>
+
+            <p>
+                PostgreSQL,
+                Autenticação,
+                Storage,
+                Realtime e APIs.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>⚙️ Automação</h3>
+
+            <p>
+                Google Apps Script,
+                Planilhas Inteligentes
+                e Fluxos Automatizados.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="tecnologias" class="container">
+
+    <h2 class="section-title">
+        Tecnologias
+    </h2>
+
+    <div class="techs">
+
+        <span class="tech">HTML5</span>
+        <span class="tech">CSS3</span>
+        <span class="tech">JavaScript</span>
+        <span class="tech">Python</span>
+        <span class="tech">Android</span>
+        <span class="tech">Kotlin</span>
+        <span class="tech">Java</span>
+        <span class="tech">Supabase</span>
+        <span class="tech">PostgreSQL</span>
+        <span class="tech">Firebase</span>
+        <span class="tech">Git</span>
+        <span class="tech">GitHub</span>
+        <span class="tech">REST API</span>
+        <span class="tech">Google Apps Script</span>
+
+    </div>
+
+</section>
+
+<section id="projetos-area" class="container">
+
+    <h2 class="section-title">
+        Projetos
+    </h2>
+
+    <div id="projetos"></div>
+
+</section>
+
+<section id="contato" class="container">
+
+    <h2 class="section-title">
+        Contato
+    </h2>
+
+    <div class="card">
+
+        <p>
+            📧 devleal2026@gmail.com
+        </p>
+
+        <p>
+            📱 +55 11 95043-6161
+        </p>
+
+    </div>
+
+</section>
+
+<footer>
+
+    © 2026 Marcos Leal
+
+</footer>
+
+<script>
+
+    fetch('projetos/projetos.json')
+
+    .then(response => response.json())
+
+    .then(projetos => {
+
+    const container =
+    document.getElementById('projetos');
+
+    projetos.forEach(projeto => {
+
+    container.innerHTML += `
+
+    <div class="projeto">
+
+    <img
+    src="${projeto.imagem}"
+    alt="${projeto.titulo}">
+
+    <div class="projeto-content">
+
+    <h3>${projeto.titulo}</h3>
+
+    <p>${projeto.descricao}</p>
+
+    <br>
+
+    <strong>
+    ${projeto.tecnologias}
+    </strong>
+
+    </div>
+
+    </div>
+
+    `;
+
+    });
+
+    })
+
+    .catch(() => {
+
+    document.getElementById('projetos')
+    .innerHTML =
+
+    '<div class="card">Nenhum projeto cadastrado ainda.</div>';
+
+    });
+
+</script>
+
+</body>
+</html>

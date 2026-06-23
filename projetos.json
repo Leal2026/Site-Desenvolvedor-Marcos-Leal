@@ -1,0 +1,38 @@
+[
+  {
+    "titulo":"Sistema de Achados e perdidos",
+    "descricao":"Aplicativo Android para registro,buscas,matches e entrega de objetos perdidos.",
+    "imagem":"assets/projetos/encontrefacil.jpg",
+    "tecnologias":"Android • Kotlin • Supabase • PostgreSQL"
+  },
+  {
+    "titulo":"Quadroo",
+    "descricao":"Mural multorganizacional digital.",
+    "imagem":"assets/projetos/quadroo.jpg",
+    "tecnologias":"JavaScript • Supabase • HTML • CSS "
+  },
+  {
+    "titulo":"Neuro Loop",
+    "descricao":"Jogo arcade.",
+    "imagem":"assets/projetos/neuroloop.jpg",
+    "tecnologias":"Android • Kotlin"
+  },
+  {
+    "titulo":"Adivinhe o animal",
+    "descricao":"Quem adivinhar a maior quantidade de animais soma mais pontos.",
+    "imagem":"assets/projetos/adivinheoanimal.jpg",
+    "tecnologias":"Android • Kotlin"
+  },
+  {
+    "titulo":"Insect Hunter",
+    "descricao":"Esmagar o maior número de insetos.",
+    "imagem":"assets/projetos/insecthunter.jpg",
+    "tecnologias":"Android • Kotlin"
+  },
+  {
+    "titulo":"Construindo Palavras",
+    "descricao":"Jogo educativo .",
+    "imagem":"assets/projetos/construindopalavras.jpg",
+    "tecnologias":"Android • Kotlin"
+  }
+]
