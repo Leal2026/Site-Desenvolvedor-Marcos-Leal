@@ -2,7 +2,7 @@
   {
     "titulo":"Sistema de Achados e perdidos",
     "descricao":"Aplicativo Android para registro,buscas,matches e entrega de objetos perdidos.",
-    "imagem":"assets/projetos/encontrefacil.jpg",
+    "imagem":"encontrefacil.jpg",
     "tecnologias":"Android • Kotlin • Supabase • PostgreSQL"
   },
   {
