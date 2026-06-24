@@ -8,31 +8,31 @@
   {
     "titulo":"Quadroo",
     "descricao":"Mural multorganizacional digital.",
-    "imagem":"assets/projetos/quadroo.jpg",
+    "imagem":"quadroo.jpg",
     "tecnologias":"JavaScript • Supabase • HTML • CSS "
   },
   {
     "titulo":"Neuro Loop",
     "descricao":"Jogo arcade.",
-    "imagem":"assets/projetos/neuroloop.jpg",
+    "imagem":"neuroloop.jpg",
     "tecnologias":"Android • Kotlin"
   },
   {
     "titulo":"Adivinhe o animal",
     "descricao":"Quem adivinhar a maior quantidade de animais soma mais pontos.",
-    "imagem":"assets/projetos/adivinheoanimal.jpg",
+    "imagem":"adivinheoanimal.jpg",
     "tecnologias":"Android • Kotlin"
   },
   {
     "titulo":"Insect Hunter",
     "descricao":"Esmagar o maior número de insetos.",
-    "imagem":"assets/projetos/insecthunter.jpg",
+    "imagem":"insecthunter.jpg",
     "tecnologias":"Android • Kotlin"
   },
   {
     "titulo":"Construindo Palavras",
     "descricao":"Jogo educativo .",
-    "imagem":"assets/projetos/construindopalavras.jpg",
+    "imagem":"construindopalavras.jpg",
     "tecnologias":"Android • Kotlin"
   }
 ]
